@@ -1,0 +1,19 @@
+{
+  "name": "phaser-multiplayer-prototype",
+  "version": "1.0.0",
+  "description": "phaser and socket.io integration to create a multiplayer game",
+  "main": "server.js",
+  "scripts": {
+    "run": "node .",
+    "test": "nodemon .",
+    "lint": "standard --verbose | snazzy"
+  },
+  "author": "Gerard Lucas",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
