@@ -34,7 +34,7 @@
         });
 
         socket = io.listen(server);
-        console.log(socket);
+        console.log("Server Initialized @ " + Date());
     };
 
 })();
